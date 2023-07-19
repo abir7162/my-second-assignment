@@ -1,0 +1,233 @@
+/* style navbar  */
+.nav-logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.nav-logo img{
+    width: 50px;
+
+}
+.nav-logo p{
+    font-size: 25px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-content a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.nav-content{
+    display: flex;
+   
+}
+/* style banner part */
+.goat h2{
+font-size:50PX;
+margin-top: 15px;
+background-image: linear-gradient(to bottom, #F948B2,rebeccapurple);
+color: transparent;
+-webkit-background-clip: text;
+}
+goat p{
+    color:#534C64 ;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section{
+    background-image: url(..//images/Group\ 14.png);
+    
+
+}
+
+.sss{
+    background-color: rgba(11, 2, 35, 0.10);
+    border: 0px solid gray;
+    gap: 10px;
+    display: flex;
+    margin-left: 15px;
+    list-style: none;
+    
+
+}
+/* style main section */
+.four-pic{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+/* style couple pic */
+.couple-pic{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    margin-top: 40px;
+}
+.couple-pic h1{
+    font-size: 49px;
+}
+    .ctn{
+        text-align: center;
+        margin-top: 150px;
+    }
+
+.play{
+    color: #FF42A5;
+}
+.pera{
+    color: #534C64;
+    font-family: work sans;
+    font-size: 19px;
+}
+   
+.putul img{
+    position: relative;
+    bottom: 250px;
+    margin-left: -150px;
+}
+    .controller{
+        border: 0px solid gray;
+        background-color: beige;
+        margin-bottom: 250px;
+    }
+    .headmaster{
+        
+        display: flex;
+    justify-content: space-around;
+        
+    }   
+    .part1{
+        display: flex;
+        align-items: center;
+    }
+    .part2{
+        display: flex;
+        align-items: center;
+    }
+    .part3{
+        display: flex;
+        align-items: center;
+    }
+    .part4{
+        display: flex;
+        align-items: center;
+    }
+    .part5{
+        display: flex;
+        align-items: center;
+    }
+    .principal{
+        display: flex;
+        justify-content: space-around;
+    }
+    .part6{
+        display: flex;
+        align-items: center;
+    }
+    .part7{
+        display: flex;
+        align-items: center;
+    }
+    .part8{
+        display: flex;
+        align-items: center;
+    }
+    .part9{
+        display: flex;
+        align-items: center;
+    }
+/* styles of footer */
+.footer-boss{
+    background-color: #0b0223;
+    padding: 30px;
+}
+.footer-one{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 550px;
+}
+.footer-one p{
+    font-size: 25px;
+    
+}
+.footer-one img{
+    width: 70px;
+}
+    .list{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        color: white;
+        margin-left: 300px;
+        margin-right: 300px;
+        font-size: 10px;
+    }
+        .icon{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            margin-left: 300px;
+            margin-right: 300px;
+            margin-top: 20px;
+            
+
+        }
+    .facebook{
+        color: blue;
+        background-color: white;
+    
+    }
+    .pakhi{
+        color:white;
+    }
+    .youtube{
+        color: red;
+        background-color: white;
+    }
+    .coppy{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-top: 30px;
+        color: gainsboro;
+        font-size: 10px;
+    }
+    .last p{
+        text-align: center;
+        color: gainsboro;
+        font-size: 10px;
+    }
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+
+    .nav,  .nav-content, .section, .four-pic, .couple-pic, .controller, .headmaster, .principal, .footer-boss{
+        padding: 20px;
+    }
+
+    .nav, .nav-content, .section, .four-pic, .couple-pic, .controller, .headmaster, .principal, .footer-boss {
+        flex-direction: column                                                                                                       ;
+    }
+}
+/* responsive of medium device */
+@media screen and (min-width:576px) and (max-width:960px) {
+    
+    
+    .nav, .nav-content, .section, .four-pic, .couple-pic, .controller, .headmaster, .principal, .footer-boss {
+        flex-direction: column
+}
+}
