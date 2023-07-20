@@ -7,6 +7,7 @@
 }
 .nav-logo img{
     width: 50px;
+    margin-left: -140px;
 
 }
 .nav-logo p{
@@ -58,15 +59,27 @@ goat p{
 
 }
 /* style main section */
+.mistake{
+    text-align: center;
+}
+.mistake h1{
+    font-size: 50px;
+}
+.mistake2{
+    background-image: linear-gradient(to bottom, #F948B2,rebeccapurple);
+color: transparent;
+-webkit-background-clip: text;
+}
 .four-pic{
     display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    gap: 20px;
-    margin-left: 500px;
-    margin-right: 500px;
+    justify-content:center;
+    
+    gap: 10px;
+    margin: 50px;
 
 }
+
+
 /* style couple pic */
 .couple-pic{
     display: flex;
@@ -98,6 +111,7 @@ goat p{
     margin-left: -150px;
 }
     .controller{
+        width:100%;
         border: 0px solid gray;
         background-color: beige;
         margin-bottom: 250px;
@@ -109,22 +123,42 @@ goat p{
         
     }   
     .part1{
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: white;
+        border: 0px;
         display: flex;
         align-items: center;
     }
     .part2{
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: white;
+        border: 0px;
         display: flex;
         align-items: center;
     }
     .part3{
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: white;
+        border: 0px;
         display: flex;
         align-items: center;
     }
     .part4{
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: white;
+        border: 0px;
         display: flex;
         align-items: center;
     }
     .part5{
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: white;
+        border: 0px;
         display: flex;
         align-items: center;
     }
@@ -133,18 +167,34 @@ goat p{
         justify-content: space-around;
     }
     .part6{
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: white;
+        border: 0px;
         display: flex;
         align-items: center;
     }
     .part7{
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: white;
+        border: 0px;
         display: flex;
         align-items: center;
     }
     .part8{
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: white;
+        border: 0px;
         display: flex;
         align-items: center;
     }
     .part9{
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: white;
+        border: 0px;
         display: flex;
         align-items: center;
     }
@@ -156,31 +206,35 @@ goat p{
 .footer-one{
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-left: 550px;
+    justify-content: center;
+    
 }
 .footer-one p{
     font-size: 25px;
+    
     
 }
 .footer-one img{
     width: 70px;
 }
+    .mistake4{
+        align-items: center;
+    }
     .list{
         display: flex;
-        justify-content: space-around;
+        gap: 70px;   
+        align-items: center;    
         list-style: none;
         color: white;
-        margin-left: 300px;
+        margin-left: 380px;
         margin-right: 300px;
         font-size: 10px;
     }
         .icon{
             display: flex;
-            justify-content: space-around;
+            justify-content:center;
             list-style: none;
-            margin-left: 300px;
-            margin-right: 300px;
+            gap: 30px;
             margin-top: 20px;
             
 
@@ -199,10 +253,10 @@ goat p{
     }
     .coppy{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         list-style: none;
-        margin-left: 400px;
-        margin-right: 400px;
+        gap: 30px;
+        
         margin-top: 30px;
         color: gainsboro;
         font-size: 10px;
